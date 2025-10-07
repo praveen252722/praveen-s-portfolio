@@ -1,0 +1,68 @@
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;        /* 👈 space between skills */
+  font-size: 16px;
+  justify-content: center;
+}
+
+.skills-list span {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;        
+  font-size: 17px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skills-list span {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Social icons styling */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 25px;/* Bigger size */
+  margin: 15px 0 ;
+}
+
+.social-icons a {
+  color: #333;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;   /* blue on hover */
+}
+
+/* CV button styling */
+.cv-btn {
+  background: #007bff;
+  color: #fff;
+  padding: 14px 28px;    
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;
+}
+
+.cv-btn:hover {
+  background: #0056b3;
+}

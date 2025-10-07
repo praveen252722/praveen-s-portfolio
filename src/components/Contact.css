@@ -1,0 +1,128 @@
+/* Section container */
+.contact-section {
+ text-align: center;
+  width: 100%;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Title */
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Flexbox container */
+.contact-container {
+   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Each contact card */
+.contact-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  width: 200px;
+  height: 30px;
+  justify-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Links */
+.contact-card a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.card-title {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+  display: inline-block;
+}
+
+
+.social {
+   background: white;
+  border-radius: 12px;
+  padding: 30px;
+  padding-top: 0;
+    width: 200px;
+  height: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.sl3 {
+  font-size: small;
+  margin-top: 0px;
+  line-height: 0;
+}
+
+
+.title-0 {
+  line-height: 0;
+  padding-top: 6px;
+}
+
+
+.card4 {
+    height: 370px;
+    flex: 1 1 250px;  /* grow, shrink, min-width */
+    max-width: 300px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 30px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+
+  }
+
+  .card4:target {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.7);
+  transform: scale(1.03);
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+    width: 100%;
+    text-align: center;
+  }
+  .card4 {
+    
+    width: 90%;
+    max-width: 350px;
+  }
+   #contact {
+    margin: 0 auto;        /* Centers horizontally */
+    display: block;        /* Ensures it behaves like a block */
+    text-align: center;    /* Aligns inner content */
+  }
+
+
+
+}
