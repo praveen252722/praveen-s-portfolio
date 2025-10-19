@@ -163,8 +163,11 @@ body {
 
   .card  {
     
-    width: 80%;
-    max-width: 350px;
+    max-width: 300px;
+    padding: 10px;
+    margin-right: 3px;
+    
+    
   }
   
   .contact-section {
@@ -183,6 +186,14 @@ body {
     justify-content: center;
     
 
+  }
+
+  .card1 {
+     width: 300px;
+    max-width: 350px;
+    padding: 5px;
+    margin-right: 3px;
+  
   }
 
 
@@ -214,6 +225,7 @@ html {
 
 
   .welcome {
+   
     padding-top: 5px;
     margin-top: 120px; /* little more for mobile header overlap */
     margin-bottom: 20px;
