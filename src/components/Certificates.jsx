@@ -12,12 +12,16 @@ function Certificates() {
       title: "Infosys SpringBoard (JavaScript)",
     },
     {
-      img: "/certificates/HackerRank_icon.png",
+      img: "/certificates/HackerRank_Icon.png",
       title: "SQL (Basic) - HackerRank",
     },
     {
       img: "/certificates/microsoft.png",
       title: "Microsoft Azure SQL",
+    },
+    {
+      img: "/certificates/meta-logo.png",
+      title: "Introduction to Back-End Development - Meta",
     },
     {
       img: "/certificates/geminiai.jpeg",
