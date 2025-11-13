@@ -1,35 +1,40 @@
 import React, { useState } from "react";
 import "./Certificates.css";
 
+// ✅ Import all certificate images properly
+import metaLogo from "../assets/certificates/meta-logo.png";
+import infosysLogo from "../assets/certificates/infosys.png";
+import hackerRankLogo from "../assets/certificates/HackerRank_icon.png";
+import microsoftLogo from "../assets/certificates/microsoft.png";
+import geminiLogo from "../assets/certificates/geminiai.jpeg";
+
 function Certificates() {
+  // ✅ Use imported images instead of string paths
   const certificates = [
     {
-      img: "src/assets/certificates/meta-logo.png",
+      img: metaLogo,
       title: "Introduction to Front-End Development - Meta",
     },
-    
     {
-      img: "src/assets/certificates/infosys.png",
+      img: infosysLogo,
       title: "Infosys SpringBoard (JavaScript)",
     },
     {
-      img: "src/assets/certificates/HackerRank_icon.png",
+      img: hackerRankLogo,
       title: "SQL (Basic) - HackerRank",
     },
     {
-      img: "src/assets/certificates/microsoft.png",
+      img: microsoftLogo,
       title: "Microsoft Azure SQL",
     },
-    
     {
-      img: "src/assets/certificates/geminiai.jpeg",
-      title: "Introduction to Gemini for Google Workspace ",
+      img: geminiLogo,
+      title: "Introduction to Gemini for Google Workspace",
     },
     {
-      img: "src/assets/certificates/meta-logo.png",
+      img: metaLogo,
       title: "Introduction to Front-End Development - Meta",
     },
-   
   ];
 
   const [startIndex, setStartIndex] = useState(0);
