@@ -1,39 +1,27 @@
 import React, { useState } from "react";
 import "./Certificates.css";
 
-// ✅ Import all certificate images properly
-import metaLogo from "../assets/certificates/meta-logo.png";
-import infosysLogo from "../assets/certificates/infosys.png";
-import hackerRankLogo from "../assets/certificates/HackerRank_icon.png";
-import microsoftLogo from "../assets/certificates/microsoft.png";
-import geminiLogo from "../assets/certificates/geminiai.jpeg";
-
 function Certificates() {
-  // ✅ Use imported images instead of string paths
   const certificates = [
     {
-      img: metaLogo,
+      img: "/certificates/meta-logo.png",
       title: "Introduction to Front-End Development - Meta",
     },
     {
-      img: infosysLogo,
+      img: "/certificates/infosys.png",
       title: "Infosys SpringBoard (JavaScript)",
     },
     {
-      img: hackerRankLogo,
+      img: "/certificates/HackerRank_icon.png",
       title: "SQL (Basic) - HackerRank",
     },
     {
-      img: microsoftLogo,
+      img: "/certificates/microsoft.png",
       title: "Microsoft Azure SQL",
     },
     {
-      img: geminiLogo,
+      img: "/certificates/geminiai.jpeg",
       title: "Introduction to Gemini for Google Workspace",
-    },
-    {
-      img: metaLogo,
-      title: "Introduction to Front-End Development - Meta",
     },
   ];
 
