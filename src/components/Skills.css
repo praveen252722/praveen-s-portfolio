@@ -61,6 +61,7 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   display: block;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 .cv-btn:hover {

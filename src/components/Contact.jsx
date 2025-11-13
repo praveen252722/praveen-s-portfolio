@@ -23,11 +23,11 @@ const Contact = () => {
         <div className="social">
           <h4 className="title-0">Social</h4>
           <p className="sl3">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/talluri-praveen-30a808304" target="_blank" rel="noreferrer">
               LinkedIn
             </a>{" "}
             |{" "}
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://github.com/praveen252722" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </p>

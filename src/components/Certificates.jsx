@@ -7,10 +7,7 @@ function Certificates() {
       img: "src/assets/certificates/meta-logo.png",
       title: "Introduction to Front-End Development - Meta",
     },
-    {
-      img: "src/assets/certificates/meta-logo.png",
-      title: "Introduction to Back-End Development - Meta ",
-    },
+    
     {
       img: "src/assets/certificates/infosys.png",
       title: "Infosys SpringBoard (JavaScript)",
@@ -21,16 +18,18 @@ function Certificates() {
     },
     {
       img: "src/assets/certificates/microsoft.png",
-      title: "Plasmid Industrial Training Certificate",
+      title: "Microsoft Azure SQL",
+    },
+    
+    {
+      img: "src/assets/certificates/geminiai.jpeg",
+      title: "Introduction to Gemini for Google Workspace ",
     },
     {
-      img: "src/assets/certificates/google.png",
-      title: "Google Data Analytics Certificate",
+      img: "src/assets/certificates/meta-logo.png",
+      title: "Introduction to Front-End Development - Meta",
     },
-    {
-      img: "src/assets/certificates/ibm.png",
-      title: "IBM Data Visualization Certificate",
-    },
+   
   ];
 
   const [startIndex, setStartIndex] = useState(0);

@@ -33,9 +33,15 @@ function Skills() {
         </a>
       </div>
 
-      {/* Download CV button */}
-      <button className="cv-btn">Download CV</button>
-    </div>
+        {/* Download CV button */}
+        <a
+       href="public/TALLURI-PRAVEEN.pdf"
+     className="cv-btn" >
+                     
+          Download CV
+               </a>
+                </div>
+
   );
 }
 
